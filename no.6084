@@ -1,0 +1,5 @@
+h, b, c, s = map(int, input().split())
+
+result = round(h * b * c * s / 2 ** 23, 1)
+
+print(result, "MB")
