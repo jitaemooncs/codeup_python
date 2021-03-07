@@ -1,0 +1,6 @@
+user_input = ord(input())
+alpha_a = ord('a')
+
+while alpha_a <= user_input:
+    print(chr(alpha_a), end=" ")
+    alpha_a += 1
